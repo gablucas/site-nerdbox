@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.introducao-imagem img {
+    position: relative;
+    left: 40px;
+}
+
+.introducao-texto {
+    margin-top: 100px;
+}
+
+.introducao-texto p {
+    margin-top: 12px;
+    max-width: 40ch;
+}
+
+.introducao-texto a {
+    display: block;
+    margin-top: 12px;
+}
+
+.introducao-texto a:hover {
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+

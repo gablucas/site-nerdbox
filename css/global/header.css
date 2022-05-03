@@ -16,5 +16,5 @@ header {
 }
 
 .header-menu a:hover {
-    color: var(--cor-3);
+    opacity: .8;
 }
