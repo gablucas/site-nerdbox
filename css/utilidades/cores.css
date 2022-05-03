@@ -13,3 +13,7 @@
     --cor-d3:#1EFF00;
     --cor-d4:#8FFF00;
 }
+
+.cor-0 {
+    color: var(--cor-0);
+}
