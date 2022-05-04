@@ -2,11 +2,11 @@ main {
     display: flex;
     justify-content: flex-end;
 
-    position: relative;
+    padding-bottom: 60px;
 }
 
 .introducao-imagem img {
-    position: absolute;
+    position: relative;
     left: 40px;
 }
 

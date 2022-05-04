@@ -1,0 +1,15 @@
+.produtos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.produtos p {
+    margin-top: 12px;
+}
+
+.produtos-imagens {
+    margin-top: 40px;
+
+    display: flex;
+    gap: 40px;
+}
