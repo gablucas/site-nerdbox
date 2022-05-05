@@ -1,0 +1,46 @@
+.footer {
+    margin: 60px 0 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-logo,
+.footer-contato,
+.footer-menu {
+    flex: 1;
+}
+
+.footer-logo q {
+    display: block;
+    margin-top: 32px;
+    max-width: 25ch;
+}
+
+.footer-contato ul,
+.footer-menu ul {
+    margin-top: 16px;
+}
+
+.footer-contato li + li,
+.footer-menu li + li {
+    margin-top: 8px;
+}
+
+.footer-contato a:hover,
+.footer-menu a:hover {
+    color: var(--cor-0);
+}
+
+.footer-redes {
+    margin-top: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-copy {
+    margin-top: 30px;
+    text-align: center;
+}
