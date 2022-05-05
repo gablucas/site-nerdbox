@@ -1,7 +1,9 @@
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
     padding: 20px 40px;
 }
 
@@ -17,4 +19,32 @@ header {
 
 .header-menu a:hover {
     opacity: .8;
+}
+
+@media (max-width: 660px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    header img {
+        width: 106px;
+    }
+
+    .header-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .header-menu a {
+        padding: 10px 20px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, .5);
+    }
+
+    .header-menu a:hover {
+        opacity: none;
+    }
 }

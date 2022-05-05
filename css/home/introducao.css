@@ -1,8 +1,6 @@
 main {
     display: flex;
     justify-content: flex-end;
-
-    padding-bottom: 60px;
 }
 
 .introducao-imagem img {
@@ -26,6 +24,46 @@ main {
 
 .introducao-texto a:hover {
     opacity: .8;
+}
+
+@media (max-width: 1024px) {
+
+    .introducao-texto p {
+        margin-top: 6px;
+        max-width: 50ch;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .introducao-imagem {
+        flex: 1 1 0;
+    }
+
+    .introducao-imagem img {
+        left: 0px;
+    }
+
+    .introducao-texto {
+        margin-top: 60px;
+        flex: 1 1 0;
+    }
+}
+
+@media (max-width: 660px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .introducao-imagem {
+        display: none;
+    }
+
+    .introducao-texto {
+        margin-top: 10px;
+        flex: 2;
+    }
 }
 
 

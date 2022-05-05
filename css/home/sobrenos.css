@@ -10,16 +10,24 @@
 }
 
 .sobrenos-info div {
-    flex: 0 1 360px;
+    flex: 1;
 }
 
 .sobrenos-info h3 {
     text-align: center;
 
-    padding: 32px 0;
+    padding: 20px 0;
     border: 4px solid var(--cor-d4);
 }
 
 .sobrenos-info p {
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .sobrenos-info {
+        flex-direction: column;
+        gap: 60px;
+    }
 }

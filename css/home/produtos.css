@@ -11,5 +11,28 @@
     margin-top: 40px;
 
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .produtos-imagens {
+        flex-wrap: nowrap;
+    }
+
+    .produtos-imagens div:nth-child(n + 4) {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .produtos {
+        padding-bottom: 0px;
+    }
+
+    .produtos-imagens {
+        gap: 20px;
+    }
 }
