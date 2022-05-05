@@ -51,15 +51,30 @@
 
 .planos-opcoes div:first-child {
     border-color: var(--cor-d1);
-    box-shadow: 0px 0px 20px 5px rgba(30, 255, 0, .25);
+    box-shadow: 0px 0px 10px 5px rgba(30, 255, 0, .25);
+    transition: .3s;
 }
 
 .planos-opcoes div:nth-child(2) {
     border-color: var(--cor-d2);
-    box-shadow: 0px 0px 20px 5px rgba(163, 53, 238,  .25);
+    box-shadow: 0px 0px 10px 5px rgba(163, 53, 238,  .25);
+    transition: .3s;
 }
 
 .planos-opcoes div:last-child {
     border-color: var(--cor-d3);
-    box-shadow: 0px 0px 20px 5px rgba(255, 128, 0, .25);
+    box-shadow: 0px 0px 10px 5px rgba(255, 128, 0, .25);
+    transition: .3s;
+}
+
+.planos-opcoes div:hover:first-child {
+    box-shadow: 0px 0px 20px 10px rgba(30, 255, 0, .25);
+}
+
+.planos-opcoes div:hover:nth-child(2) {
+    box-shadow: 0px 0px 20px 10px rgba(163, 53, 238,  .25);
+}
+
+.planos-opcoes div:hover:last-child {
+    box-shadow: 0px 0px 20px 10px rgba(255, 128, 0, .25);
 }
