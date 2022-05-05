@@ -3,7 +3,7 @@ main {
     justify-content: flex-end;
 }
 
-.introducao-imagem img {
+.introducao-imagem {
     position: relative;
     left: 40px;
 }
@@ -38,10 +38,7 @@ main {
 
     .introducao-imagem {
         flex: 1 1 0;
-    }
-
-    .introducao-imagem img {
-        left: 0px;
+        left: 0;
     }
 
     .introducao-texto {
@@ -53,17 +50,26 @@ main {
 @media (max-width: 660px) {
 
     main {
-        flex-direction: column;
-    }
-
-    .introducao-imagem {
-        display: none;
+        flex-direction: column-reverse;
+        align-items: start;
+        position: relative;
     }
 
     .introducao-texto {
         margin-top: 10px;
-        flex: 2;
     }
+
+    .introducao-imagem {
+        position: absolute;
+        z-index: -1;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .introducao-imagem img{
+        max-width: 200px;
+
 }
 
 
